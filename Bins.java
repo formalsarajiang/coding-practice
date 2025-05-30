@@ -17,7 +17,7 @@ public class Bins {
     }
 
     public static void main (String[] args) {
-        int [] ship = { 10, 20, 30, 40};
+        int [] ship = {10, 20, 30, 40};
         System.out.println(totalWastedSpace(ship, 50));
     }
 }
