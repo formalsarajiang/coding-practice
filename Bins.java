@@ -15,4 +15,9 @@ public class Bins {
         // The return is included to allow the skeleton code to compile.
         return -1;
     }
+
+    public static void main (String[] args) {
+        int [] ship = { 10, 20, 30, 40};
+        System.out.println(totalWastedSpace(ship, 50));
+    }
 }
