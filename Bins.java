@@ -11,7 +11,7 @@ public class Bins {
      * Returns: The total wasted space across all shipments.
      **/
     public static int totalWastedSpace(int[] shipments, int binSize) {
-        return shipemnts[0] % binSize + shipemnts[1] % binSize + shipemnts[2] % binSize + shipemnts[3] % binSize;
+        return shipments[0] % binSize + shipments[1] % binSize + shipments[2] % binSize + shipments[3] % binSize;
     }
 
     public static void main (String[] args) {
