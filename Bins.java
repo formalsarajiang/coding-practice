@@ -13,7 +13,13 @@ public class Bins {
     public static int totalWastedSpace(int[] shipments, int binSize) {
         int out = 0;
         for (int num : shipments) {
-            out = out + (binSize - (num % binSize));
+            int rem = num % binSize;
+            if (rem == 0) {
+                out = out + 0;
+            }
+            else {
+                out = out + (binSize - (num % binSize));
+            }
         }
         return out;
     }
