@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+erimport java.util.ArrayList;
 import java.util.List;
 
 public class Expand {
@@ -19,7 +19,7 @@ public class Expand {
         assert lb >= 2;
         assert lb <= ub;
 
-        List<Int> facinskip = new ArrayList<>();
+        List<Integer> facinskip = new ArrayList<>();
         for (int num : skip) {
             for (int i = 1; i <= num; i++) {
                 if (num % i == 0) {
@@ -28,7 +28,7 @@ public class Expand {
             }
         }
 
-        List<Int> out = new ArrayList<>();
+        List<Integer> out = new ArrayList<>();
         for (int i = lb; i <= lb; i++) {
             if (!(facinskip.contains(i))) {
                 out.add(i);
