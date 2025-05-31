@@ -19,7 +19,27 @@ public class Expand {
         assert lb >= 2;
         assert lb <= ub;
 
-        // TODO: Implement this function.
-        return new ArrayList<>();
+        List<Int> facinskip = new ArrayList<>();
+        for (int num : skip) {
+            for (int i = 1; i <= num; i++) {
+                if (num % i == 0) {
+                    facinskip.add(i);
+                }
+            }
+        }
+
+        List<Int> out = new ArrayList<>();
+        for (int i = lb, i <= lb, i++) {
+            if (!(facinskip.contains(i))) {
+                out.add(i);
+            }
+        }
+        return out;
+
+        
+
     }
+
+
+        
 }
