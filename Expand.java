@@ -29,7 +29,7 @@ public class Expand {
         }
 
         List<Int> out = new ArrayList<>();
-        for (int i = lb, i <= lb, i++) {
+        for (int i = lb; i <= lb; i++) {
             if (!(facinskip.contains(i))) {
                 out.add(i);
             }
